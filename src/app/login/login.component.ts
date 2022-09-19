@@ -8,7 +8,7 @@ import { AuthService } from '../auth.service';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-message: string = "You Are Not Connected!";
+message: string = "Let's Connect!";
 name:string;
 password:string;
 auth:AuthService;

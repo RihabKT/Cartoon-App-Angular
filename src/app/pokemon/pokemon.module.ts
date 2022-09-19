@@ -17,7 +17,7 @@ import { AuthGuard } from '../auth.guard';
 const pokemonRoutes: Routes = [
   {path:"edit/pokemon/:id" , component: EditPokemonComponent, canActivate:[AuthGuard] },
   {path:"add/pokemon",component:AddPokemonComponent , canActivate:[AuthGuard] },
-  {path:"pokemons"  ,component: ListPokemonComponent , canActivate:[AuthGuard] },
+  {path:"pokemons"  ,component: ListPokemonComponent  },
   {path:"pokemon/:id" , component: DetailPokemonComponent , canActivate:[AuthGuard]  }
 ];
 

@@ -1,4 +1,8 @@
-<h2 class="center" id="name-detail"> EDIT {{pokemon?.name}}  </h2>
+<div class="flexy-edit">
+<h2 class="center" id="edit-title" > EDIT  </h2>
+<h2 class="center" id="name-detail-edit"> {{pokemon?.name}}  </h2>
+</div>
+
 <p *ngIf="pokemon" class="center" >
     <img [src]="pokemon.picture"/>
 </p>

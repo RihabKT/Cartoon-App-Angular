@@ -45,3 +45,19 @@
     font-family: cursive;
     font-weight: bolder;
 }
+#name-detail-edit{
+    color: palevioletred;
+    font-family: cursive;
+    font-weight: bolder;
+    margin-left: 2%;
+}
+
+.flexy-edit{
+    display: flex;
+    justify-content: center;
+}
+
+#edit-title{
+    font-family: cursive;
+    font-weight: bolder;
+}

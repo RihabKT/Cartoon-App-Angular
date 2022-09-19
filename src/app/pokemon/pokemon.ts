@@ -11,7 +11,7 @@ export class Pokemon {
                  hp:number =100,
                  cp:number =10,
                  picture:string ='http://assets.pokemon.com/assets/cms2/img/pokedex/detail/xxx.png',
-                 types:string[]=['Normal'],
+                 types:string[]=[],
                  created:Date= new Date()){
   
            
